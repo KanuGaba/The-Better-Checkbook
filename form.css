@@ -1,0 +1,363 @@
+
+    @font-face {
+      font-family: EthRomainEthon;
+      src: url(fonts/EthRomainEthon.ttf);
+    }
+    input{
+
+      /*font-family: 'Roboto', sans-serif;*/
+      font-family: EthRomainEthon;
+      color: white;
+      background-color: rgb(0,0,0);
+      text-align: center;
+      border: none;
+      border-bottom: 2px solid white;
+      width: 300px;
+      height:40px;
+      /*padding-left: 30px;
+      padding-right: 50px;*/
+
+      /*margin:-3px;*/
+      font-size:13.5pt;
+    }
+    input:focus{
+      border-bottom-right-radius: 0;
+      outline:none;
+    }
+    .wrapper-demo {
+        clear: both;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /*margin: 60px 0 0 0;*/
+        /*padding-left: 100px;*/
+        /*margin-left: 50px;
+        margin-right: 20px;*/
+
+
+        font-weight: 400;
+        display: inline-block;
+        /*float: center;*/
+        width:300px;
+
+        /*border:1px solid; */
+        vertical-align:top;
+        font-family: EthRomainEthon;
+        /*margin:0 auto;*/
+
+
+
+        /*float: left;
+        margin-left:auto;
+        margin-right:auto;*/
+
+    }
+
+  .wrap {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .wrap1 {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    body {
+      font-family: EthRomainEthon;
+      font-size: 13;
+      background-color: #000;
+
+
+
+    }
+    .right{
+      float: right;
+    }
+    .left{
+      float: left;
+    }
+    .container{
+    top: 40%;
+    position: absolute;
+    clear: both;
+    left: 16.5%;
+    /*right: 14.75%;*/
+    /*top: 40%;
+
+    clear: both;
+    /*margin: 60px 0 0 0;*/
+    /*padding-left: 100px;*/
+    /*margin-left: 50px;
+    margin-right: 20px;*/
+
+    /**zoom: 1;
+    font-weight: 400;
+    display: inline-block;*/
+
+    /*width: 30em;
+    height: 18em;*/
+    /*margin-top: -9em;
+    margin-left: -15em;*/
+    }
+
+
+    .desc {
+      color: #6b6b6b;
+    }
+
+    .desc a {
+      color: #0092dd;
+    }
+
+    .dropdown dd,
+    .dropdown dt,
+    .dropdown ul {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .dropdown dd {
+      position: relative;
+    }
+
+    .dropdown a,
+    .dropdown a:hover {
+      color: #fff;
+      text-decoration: none;
+      outline: none;
+
+    }
+
+    .dropdown a:hover {
+      color: black;
+
+    }
+
+    .dropdown dt a:hover,
+    .dropdown dt a:focus {
+      color: white;
+      border: 1px solid black;
+
+
+    }
+
+    .dropdown dt a {
+      background: #26A65B url(right-arrow.png) no-repeat scroll right 15px center;
+      display: block;
+      margin-top: 20px;
+      /*padding-right: 20px;*/
+      border: 1px solid black;
+      width: 210px;
+      height: 50px;
+      text-align: center;
+      line-height:45px;
+      font-size: 12pt;
+    }
+
+    .dropdown dt a span {
+      cursor: pointer;
+      display: block;
+      padding: 5px;
+    }
+
+    .dropdown dd ul {
+
+      background: #26A65B none repeat scroll 0 0;
+      border: 1px solid black;
+      color: white;
+      display: none;
+      left: 0px;
+      padding: 0px 0px;
+      position: absolute;
+      top: 2px;
+      /*width: auto;*/
+      width: 210px;
+      list-style: none;
+
+    }
+
+    .dropdown span.value {
+      display: none;
+    }
+
+    .dropdown dd ul li a {
+      padding: 5px;
+      width: 200px;
+      display: block;
+    }
+
+    .dropdown dd ul li a:hover {
+      background-color: #86E2D5;
+
+    }
+
+    .dropdown img.box {
+      border: none;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .dropdownmenu {
+      display: none;
+    }
+    .dropdown1 dd,
+    .dropdown1 dt,
+    .dropdown1 ul {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .dropdown1 dd {
+      position: relative;
+    }
+
+    .dropdown1 a{
+      color: white;
+      text-decoration: none;
+      outline: none;
+    }
+    .dropdown1 a:hover {
+      color: white;
+      text-decoration: none;
+      outline: none;
+
+    }
+
+
+    .dropdown1 a:hover {
+      color: white;
+
+    }
+
+    .dropdown1 dt a:hover,
+    .dropdown1 dt a:focus {
+      color: white;
+      border: 1px solid black;
+
+
+    }
+
+    .dropdown1 dt a {
+      background: #26A65B url(right-arrow.png) no-repeat scroll right 15px center;
+      display: block;
+      margin-top: 20px;
+      padding-right: 20px;
+      border: 1px solid black;
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      line-height:45px;
+      font-size: 12pt;
+    }
+
+    .dropdown1 dt a span {
+      cursor: pointer;
+      display: block;
+      padding: 5px;
+    }
+
+    .dropdown1 dd ul {
+
+      background: #26A65B none repeat scroll 0 0;
+      border: 1px solid black;
+      color: black;
+      display: none;
+      left: 0px;
+      padding: 0px 0px;
+      position: absolute;
+      top: 2px;
+      /*width: auto;*/
+      width: 220px;
+      list-style: none;
+
+    }
+
+    .dropdown1 span.value {
+      display: none;
+    }
+
+    .dropdown1 dd ul li a {
+      padding: 5px;
+      width: 210px;
+      display: block;
+    }
+
+    .dropdown1 dd ul li a:hover {
+      background-color: #86E2D5;
+
+    }
+
+    .dropdown1 img.box {
+      border: none;
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+
+    .dropdown1menu {
+      display: none;
+    }
+    
+    .button {
+      width: 200px;
+      height: 64.285714286px;
+      margin-top: 100px;
+      font-family: EthRomainEthon;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      border: none;
+      background-color: #fff;
+      border-radius: 45px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      margin-right:15px;
+      margin-left:15px;
+      }
+    .button:focus{
+      padding:0;
+      outline: none;
+    }
+
+    .button:hover {
+      background-color: #26A65B;
+      box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+    }
+    
+    
+        .logout {
+      width: 200px;
+      height: 64.285714286px;
+      margin-top: 30px;
+      font-family: EthRomainEthon;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      font-weight: 500;
+      color: #000;
+      border: none;
+      background-color: #fff;
+      border-radius: 45px;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease 0s;
+      cursor: pointer;
+      margin-right:15px;
+      margin-left:15px;
+      }
+    .logout:focus{
+      padding:0;
+      outline: none;
+    }
+
+    .logout:hover {
+      background-color: #26A65B;
+      box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+      color: #fff;
+      transform: translateY(-7px);
+    }
